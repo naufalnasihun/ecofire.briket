@@ -1,6 +1,7 @@
 
-import { Instagram } from "lucide-react";
-import { FaTiktok, FaShopify } from "react-icons/fa";
+import { Instagram, Link2 } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
+import { SiShopee } from "react-icons/si";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -13,9 +14,10 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { icon: Instagram, href: "https://tr.ee/bTdUwtKgsF" },
-  { icon: FaTiktok, href: "https://tr.ee/9o76wuDNK5" },
-  { icon: FaShopify, href: "https://tr.ee/o-WQ3m944N" }
+  { icon: Instagram, href: "https://www.instagram.com/ecofire_luverta?igsh=MWIzc3dkMzNvYXlkNg==" },
+  { icon: FaTiktok, href: "https://www.tiktok.com/@ecofire.official?_r=1&_t=ZS-97uzBZ3OHUy" },
+  { icon: SiShopee, href: "https://id.shp.ee/kiqnjZh6" },
+  { icon: Link2, href: "https://linktr.ee/BriketEcofire" }
 ];
 
 export function Footer() {
